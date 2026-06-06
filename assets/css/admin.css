@@ -1,0 +1,52 @@
+:root {
+    --navy: #062845;
+    --soft: #f3f6f8;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--soft);
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+.bg-navy {
+    background: var(--navy);
+}
+
+.admin-card {
+    height: 100%;
+    padding: 24px;
+    border: 1px solid rgba(6, 40, 69, 0.08);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(6, 40, 69, 0.08);
+}
+
+.preview-icon {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+}
+
+.preview-slide {
+    width: 96px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.nav-pills .nav-link {
+    color: var(--navy);
+}
+
+.nav-pills .nav-link.active {
+    background: var(--navy);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--navy);
+    --bs-btn-border-color: var(--navy);
+    --bs-btn-hover-bg: #0a3c63;
+    --bs-btn-hover-border-color: #0a3c63;
+}
+
